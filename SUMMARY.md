@@ -24,6 +24,9 @@
 * [Command Line Arguments](other/command-line-arguments.md)
 * [Imports](other/imports.md)
 * [Shell Customisation](other/shell-customisation.md)
-* [Standard Library](other/standard-library.md)
 * [Conventions](other/conventions.md)
 * [Multi-line expressions](other/multi-line-expressions.md)
+
+## Standard Library
+
+* [Page 1](standard-library/page-1.md)
