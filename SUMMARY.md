@@ -29,4 +29,4 @@
 
 ## Standard Library
 
-* [Page 1](standard-library/page-1.md)
+* [str](standard-library/page-1.md)
