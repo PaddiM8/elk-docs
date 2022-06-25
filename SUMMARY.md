@@ -26,7 +26,3 @@
 * [Shell Customisation](other/shell-customisation.md)
 * [Conventions](other/conventions.md)
 * [Multi-line expressions](other/multi-line-expressions.md)
-
-## Standard Library
-
-* [str](standard-library/page-1.md)
