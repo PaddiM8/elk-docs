@@ -9,7 +9,7 @@
 
 (*) The input number made positive.
 
-## add(container, value1: *)<br>add(container, value1: *, value2: *)
+## add(container, value1)<br>add(container, value1, value2)
 
 | Parameter         | Type             | Description                             |
 | ----------------- | ---------------- | --------------------------------------- |
@@ -55,7 +55,7 @@ Throws a runtime error if the given boolean is false.
 
 (nil)
 
-## bool(value: *)
+## bool(value)
 
 | Parameter | Type | Description               |
 | --------- | ---- | ------------------------- |
@@ -85,7 +85,7 @@ Throws a runtime error if the given boolean is false.
 
 (Error) An Error with the provided message.
 
-## float(value: *)
+## float(value)
 
 | Parameter | Type | Description               |
 | --------- | ---- | ------------------------- |
@@ -117,7 +117,7 @@ Reads the next line from the standard input stream. This is used to get input fr
 
 (String) The value given by the user.
 
-## insert(list: List, index: Integer, value: *)
+## insert(list: List, index: Integer, value)
 
 | Parameter | Type    | Description                        |
 | --------- | ------- | ---------------------------------- |
@@ -131,7 +131,7 @@ Inserts a value at the specified index in a list.
 
 (List) The same list.
 
-## int(value: *)
+## int(value)
 
 | Parameter | Type | Description               |
 | --------- | ---- | ------------------------- |
@@ -141,7 +141,7 @@ Inserts a value at the specified index in a list.
 
 (Integer) 
 
-## isType(value: *, type: Type)
+## isType(value, type: Type)
 
 | Parameter | Type | Description |
 | --------- | ---- | ----------- |
@@ -183,7 +183,7 @@ Inserts a value at the specified index in a list.
 
 (List) A list of all the lines in the given string.
 
-## list(value: *)
+## list(value)
 
 | Parameter | Type | Description               |
 | --------- | ---- | ------------------------- |
@@ -225,7 +225,7 @@ Inserts a value at the specified index in a list.
 
 (*) The lowest of the two input numbers.
 
-## print(input: *)
+## print(input)
 
 | Parameter | Type | Description    |
 | --------- | ---- | -------------- |
@@ -238,7 +238,7 @@ If the input value is of the type Error, the error message is forwarded to stder
 
 (nil)
 
-## println(input: *)
+## println(input)
 
 | Parameter | Type | Description    |
 | --------- | ---- | -------------- |
@@ -272,7 +272,7 @@ If the input value is of the type Error, the error message is forwarded to stder
 
 (String) Text content of the file at the provided path.
 
-## remove(container, index: *)
+## remove(container, index)
 
 | Parameter | Type             | Description                 |
 | --------- | ---------------- | --------------------------- |
@@ -326,7 +326,7 @@ Changes the step size of the given range. The step size determines how much the 
 for i in 0..10 | stepBy(2): echo(i)
 ```
 
-## str(value: *)
+## str(value)
 
 | Parameter | Type | Description               |
 | --------- | ---- | ------------------------- |
@@ -336,7 +336,7 @@ for i in 0..10 | stepBy(2): echo(i)
 
 (String) 
 
-## type(value: *)
+## type(value)
 
 | Parameter | Type | Description               |
 | --------- | ---- | ------------------------- |
