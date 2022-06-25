@@ -30,13 +30,12 @@ list | add(x)
 dict | add("name", "John")
 ```
 
-## append(content: String, path: String, env)
+## append(content: String, path: String)
 
 | Parameter | Type   | Description                             |
 | --------- | ------ | --------------------------------------- |
 | content   | String | Text that should be written to the file |
 | path      | String | A file path                             |
-| env       | *      |                                         |
 
 Appends the provided text to a file.
 
@@ -263,12 +262,11 @@ If the input value is of the type Error, the error message is forwarded to stder
 
 (Float) A random integer between the two provided values.
 
-## read(path: String, env)
+## read(path: String)
 
 | Parameter | Type   | Description |
 | --------- | ------ | ----------- |
 | path      | String | A file path |
-| env       | *      |             |
 
 ### Returns
 
@@ -365,13 +363,12 @@ The first item of the tuple is the item from the original container, while the s
 for item, i in values: echo("{i}: {item}")
 ```
 
-## write(content: String, path: String, env)
+## write(content: String, path: String)
 
 | Parameter | Type   | Description                             |
 | --------- | ------ | --------------------------------------- |
 | content   | String | Text that should be written to the file |
 | path      | String | A file path                             |
-| env       | *      |                                         |
 
 Writes the provided text to a file, overwriting any previous content.
 
