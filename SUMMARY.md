@@ -29,10 +29,10 @@
 
 # Standard Library
 
-* [AnsiFormat (ansi)](AnsiFormat%20(ansi).md)
-* [Environment (env)](Environment%20(env).md)
-* [IO (io)](IO%20(io).md)
-* [Iteration (iter)](Iteration%20(iter).md)
-* [Path (path)](Path%20(path).md)
-* [String (str)](String%20(str).md)
-* [Globals](Globals.md)
+* [AnsiFormat (ansi)](standard-library/AnsiFormat%20(ansi).md)
+* [Environment (env)](standard-library/Environment%20(env).md)
+* [IO (io)](standard-library/IO%20(io).md)
+* [Iteration (iter)](standard-library/Iteration%20(iter).md)
+* [Path (path)](standard-library/Path%20(path).md)
+* [String (str)](standard-library/String%20(str).md)
+* [Globals](standard-library/Globals.md)
