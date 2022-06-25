@@ -27,12 +27,12 @@
 * [Conventions](other/conventions.md)
 * [Multi-line expressions](other/multi-line-expressions.md)
 
-# Standard Library
+## Standard Library
 
-* [AnsiFormat (ansi)](standard-library/AnsiFormat%20%28ansi%29.md)
-* [Environment (env)](standard-library/Environment%20%28env%29.md)
-* [IO (io)](standard-library/IO%20%28io%29.md)
-* [Iteration (iter)](standard-library/Iteration%20%28iter%29.md)
-* [Path (path)](standard-library/Path%20%28path%29.md)
-* [String (str)](standard-library/String%20%28str%29.md)
-* [Globals](standard-library/Globals.md)
+* [AnsiFormat (ansi)](standard-library/ansiformat-ansi.md)
+* [Environment (env)](standard-library/environment-env.md)
+* [IO (io)](standard-library/io-io.md)
+* [Iteration (iter)](standard-library/iteration-iter.md)
+* [Path (path)](standard-library/path-path.md)
+* [String (str)](standard-library/string-str.md)
+* [Globals](standard-library/globals.md)
