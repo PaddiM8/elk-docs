@@ -29,4 +29,4 @@
 
 # Standard Library
 
-* [AnsiFormat (ansi)](standard-library/AnsiFormat (ansi).md)
+* [AnsiFormat (ansi)](standard-library/AnsiFormat%20(ansi).md)
