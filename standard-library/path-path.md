@@ -34,5 +34,5 @@ Removes the path of the given index from $PATH and ~/.config/elk/path.txt. The i
 
 ### Returns
 
-(nil)
+(*) (nil or Error) An error if the index is out of range.
 
