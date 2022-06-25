@@ -26,3 +26,7 @@
 * [Shell Customisation](other/shell-customisation.md)
 * [Conventions](other/conventions.md)
 * [Multi-line expressions](other/multi-line-expressions.md)
+
+# Standard Library
+
+* [AnsiFormat (ansi)](standard-library/AnsiFormat (ansi).md)
