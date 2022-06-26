@@ -33,6 +33,8 @@ echo("Kernel: {kernel}")
 ## User Input
 
 ```rust
+using ansi
+
 let name = input("Name ({$USER}): " | color green) ?? $USER
 let createFolder = input("Create folder? (y/N) " | color green) ?? "n"
     | str::trim
