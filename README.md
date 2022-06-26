@@ -10,7 +10,7 @@ Elk is an experimental shell language that aims to seamlessly combine the syntax
 
 The fundamental syntax of Elk is similar to that of languages like Python, meaning you can easily define variables and functions and perform operations just like you would in regular scripting languages. At the same time, programs can be executed as easily as in bash, making it a good choice for shell scripting and command line usage. This is achieved by treating program invocations as function calls syntactically, while also allowing these to be written similar to program invocations in shell languages.
 
-In Elk, redirection of standard output is done automatically, removing the need for command substitution (eg. `$(ls)`), arithmetic expansion (eg. `$((1+2))`), and process substitution (eg. `<(list)`).  When a program invocation expression is in a context where its value is used, the standard output of the resulting process is redirected and handled by Elk, giving the illusion that program invocations are simply function calls.
+In Elk, redirection of standard output is done automatically, removing the need for command substitution (eg. `$(ls)`), arithmetic expansion (eg. `$((1+2))`), and process substitution (eg. `<(list)`). When a program invocation expression is in a context where its value is used, the standard output of the resulting process is redirected and handled by Elk, giving the illusion that program invocations are simply function calls.
 
 ```nim
 # here, 'ls' and 'echo' are program invocations, while 'lines' is a 
@@ -23,7 +23,7 @@ let imageFiles = ls images/*.png | lines
 echo(imageFiles[0])
 
 # the elk shell can even be used as a calculator
-# since arithmetic can be done anywhere
+# since arithmetic operations can be done anywhere
 5 + 3
 ```
 
