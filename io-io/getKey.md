@@ -1,9 +1,7 @@
-# IO (io)
-## getKey()
+# getKey()
 
 Waits until the user presses a key in the terminal.
 
-### Returns
+## Returns
 
 (String) The character produced by the key press.
-
