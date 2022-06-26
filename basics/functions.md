@@ -24,6 +24,28 @@ and
 fn add(x, y): x + y
 ```
 
+### Default Parameters
+
+Function parameters can be assigned a default value by putting an equal sign followed by a value after the parameter name. This makes the parameter optional. If an argument is not given for an optional parameter, the default value is used instead. Parameters with default values must be at the end of the parameter list.
+
+```rust
+fn greet(name = nil) {
+    println(if name: "Hello {name}!" else "Hello!")
+}
+```
+
+### Variadic
+
+A function that can take an arbitrary amount of arguments is declared by putting three dots at the end of the last parameter.
+
+```rust
+fn add(values...) {
+    let sum = 0
+    for value in values: sum += value
+    sum
+}
+```
+
 ## Usage
 
 There are two different ways to express a function call: parenthesised and shell-style.
@@ -54,7 +76,7 @@ The end of a shell-style function call is detected upon reaching one of the foll
 * `||`
 * `;`
 * New line
-* &#x20;`->` (incl. surrounding spaces)
+* `->` (incl. surrounding spaces)
 
 ```rust
 let line = read file | len
