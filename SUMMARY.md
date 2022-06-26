@@ -75,7 +75,6 @@
 * [Iteration (iter)](standard-library/iteration-iter/README.md)
   * [all](standard-library/iteration-iter/all.md)
   * [any](standard-library/iteration-iter/any.md)
-* [Maths (math)](standard-library/maths-math/README.md)
 * [Path (path)](standard-library/path-path/README.md)
   * [add](standard-library/path-path/add.md)
   * [all](standard-library/path-path/all.md)
@@ -88,4 +87,3 @@
   * [startsWith](standard-library/string-str/startsWith.md)
   * [trim](standard-library/string-str/trim.md)
   * [upper](standard-library/string-str/upper.md)
-* [Types (types)](standard-library/types-types/README.md)
