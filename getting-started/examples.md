@@ -34,7 +34,7 @@ echo("Kernel: {kernel}")
 
 ```rust
 let name = input("Name ({$USER}): " | color green) ?? $USER
-let createFolder = input("Create folder? (y/N) " | color green) ?? "n" |
-    str::trim |
-    str::lower
+let createFolder = input("Create folder? (y/N) " | color green) ?? "n"
+    | str::trim
+    | str::lower
 ```
