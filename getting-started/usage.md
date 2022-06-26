@@ -2,7 +2,7 @@
 
 ## Running Code
 
-When the Elk-program is executed without any command line arguments, it drops the user in the interactive shell mode. This allows you to type commands and get results immediately, like you would expect from a shell program. When a file path is given as a command line argument, the code in that file is evaluated.
+When the Elk-program is executed without any command line arguments, it drops the user into the interactive shell mode. This allows you to type commands and get results immediately, like you would expect from a shell program. When a file path is given as a command line argument, the code in that file is evaluated.
 
 ```shell
 elk someFile.elk
