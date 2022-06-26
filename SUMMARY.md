@@ -21,6 +21,7 @@
 
 ## Other
 
+* [Casting](other/casting.md)
 * [Command Line Arguments](other/command-line-arguments.md)
 * [Imports](other/imports.md)
 * [Shell Customisation](other/shell-customisation.md)
