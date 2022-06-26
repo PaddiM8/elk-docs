@@ -1,6 +1,6 @@
 # Casting
 
-A value can be converted to another type using the standard library functions for type conversion. These can be found in [standard-library/globals](../standard-library/globals/).
+A value can be converted to another type using the standard library functions for type conversion. These can be found in [standard-library/built-in](../standard-library/built-in/).
 
 ```rust
 let x = int(input("Enter a number"))
