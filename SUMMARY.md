@@ -29,8 +29,8 @@
 
 ## Standard Library
 
-* [Globals](standard-library/globals.md)
-* [AnsiFormat (ansi)](standard-library/ansiformat-ansi.md)
+* [Globals](standard-library/globals/README.md)
+  * [AnsiFormat (ansi)](standard-library/globals/ansiformat-ansi.md)
 * [Environment (env)](standard-library/environment-env.md)
 * [IO (io)](standard-library/io-io.md)
 * [Iteration (iter)](standard-library/iteration-iter.md)
