@@ -29,3 +29,10 @@ for line in hidLines: echo(line | ansi::color blue)
 let kernel = uname()
 echo("Kernel: {kernel}")
 ```
+
+## User Input
+
+```rust
+let name = input("Name ({$USER}): " | color green) ?? $USER
+let createFolder = input("Create folder? (y/N) " | color green) ?? "n"
+```
